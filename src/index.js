@@ -50,7 +50,7 @@ client.on('messageCreate', (message) => {
   if (message.content === 'candace') {
     message.channel.send('can deez nuts fit in your mouth?');
   }
-
+  
   if(message.content.includes("dabloons")) {
     message.channel.send('https://i.redd.it/ixl190nnvdv41.jpg');
   }
