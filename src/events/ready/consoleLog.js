@@ -2,22 +2,9 @@ const {ActivityType} = require('discord.js');
 
 let status = [
     {
-      name: 'Under Ctrl',
+      name: 'stress-free playlist',
       type: ActivityType.Streaming,
       url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-    },
-    {
-      name: 'Chaos`s League Twitch Stream',
-      type: ActivityType.Streaming,
-      url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-    },
-    {
-      name: 'Brozty`s Music Video',
-      type: ActivityType.Watching,
-    },
-    {
-      name: 'Spotify',
-      type: ActivityType.Listening,
     },
 ];
 

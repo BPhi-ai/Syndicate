@@ -44,10 +44,18 @@ client.on('messageCreate', (message) => {
   }
 
   if(message.content === 'bruh') {
-    message.channel.send('these nuts');
+    message.channel.send('deez nuts');
+  } 
+  
+  if (message.content === 'candace') {
+    message.channel.send('can deez nuts fit in your mouth?');
   }
 
-  if(message.content ==="RAHHHH") {
+  if(message.content.includes("dabloons")) {
+    message.channel.send('https://i.redd.it/ixl190nnvdv41.jpg');
+  }
+
+  if(message.content.includes("RAHHHH")) {
     message.channel.send('https://media3.giphy.com/media/BGPkJPn38HC5E44NgC/200w.gif?cid=6c09b952x9pq6067za440c9r4wgjnfnvizqzy26y36tfvgsw&ep=v1_gifs_search&rid=200w.gif&ct=g');
   }
 });
