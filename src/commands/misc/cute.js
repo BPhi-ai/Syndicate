@@ -2,7 +2,7 @@ const {EmbedBuilder} = require('discord.js');
 
 module.exports = {
     name: 'cute',
-    description: 'endanger chubbs, beware user from maximum cuteness',
+    description: 'endanger chubbs, user beware from maximum cuteness',
     callback: (client, interaction) => {
         const chubb = [
             'https://assets-prd.ignimgs.com/2023/03/31/dqqokoy4tyxphq9evict8kzsohwmxbpa91vw8u2hwby-1680294740156.jpg',
