@@ -46,6 +46,10 @@ client.on('messageCreate', (message) => {
   if(message.content === 'bruh') {
     message.channel.send('these nuts');
   }
+
+  if(message.content ==="RAHHHH") {
+    message.channel.send('https://media3.giphy.com/media/BGPkJPn38HC5E44NgC/200w.gif?cid=6c09b952x9pq6067za440c9r4wgjnfnvizqzy26y36tfvgsw&ep=v1_gifs_search&rid=200w.gif&ct=g');
+  }
 });
 
 client.login(process.env.TOKEN);

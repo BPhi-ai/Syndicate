@@ -8,8 +8,8 @@ module.exports = {
   
     callback: (client, interaction) => {
         const embed = new EmbedBuilder()
-          .setTitle('Embed title')
-          .setDescription('This is an embed description')
+          .setTitle('The Syndicate')
+          .setDescription('Ajimin Society`s first discord bot in development!')
           .setColor('Random')
           .addFields(
             {
